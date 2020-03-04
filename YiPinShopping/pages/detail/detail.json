@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-swiper": "/components/w-swiper/w-swiper",
+    "w-bottom-bar": "./childComponents/w-bottom-bar/w-bottom-bar"
+  }
+}

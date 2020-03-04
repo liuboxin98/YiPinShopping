@@ -1,0 +1,20 @@
+<!--components/w-cg-tab-control/w-cg-tab-control.wxml-->
+
+<view class="container">
+	<!-- 左边 -->
+	<view class="tab-control">
+		<block wx:for="{{titles}}" wx:key="index">
+			<view class='tab-item {{index == currentIndex?"active": ""}}' bind:tap="click_item" data-index="{{index}}">
+				<view class="item">
+					{{item}}
+				</view>
+			</view>
+		</block>
+	</view>
+	<!-- 右边 -->
+	<view class="tab-content">
+		<block wx:for="{{type_item}}" wx:key="index">
+			<view class="tab-content-item">{{item}}</view>
+		</block>
+	</view>
+</view>

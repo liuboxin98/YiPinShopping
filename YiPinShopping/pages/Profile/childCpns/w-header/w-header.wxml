@@ -1,0 +1,23 @@
+<!--pages/profile/childCpns/w-header/w-header.wxml-->
+<view class='header'>
+	<view class='avatar'>
+		<!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
+		<!-- <open-data type="userAvatarUrl"></open-data> -->
+		<image src="{{userAvatatrUrl}}" />
+	</view>
+	<view class='login-info'>
+		<view wx:if="{{login}}" class='login'>
+			{{nickname}}
+		</view>
+		<view wx:if="{{!login}}">
+			<button size="mini" id='btn-login' open-type="getUserInfo" bindgetuserinfo='login'>点击登录</button>
+		</view>
+		<view class='phone'>
+			<image src="/assets/images/profile/phone.png" />
+			暂无绑定手机号
+		</view>
+	</view>
+	<view class='arrow'>
+		<image src="/assets/images/common/arrow-right.png" />
+	</view>
+</view>

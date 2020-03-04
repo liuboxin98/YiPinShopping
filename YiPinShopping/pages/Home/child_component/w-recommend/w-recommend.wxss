@@ -1,0 +1,28 @@
+/* pages/Home/w-recommend/w-recommend.wxss */
+.recommend {
+  display: flex;
+  text-align: center;
+  padding-bottom: 40rpx;
+  border-bottom: 16rpx solid #eee;
+}
+ 
+.recommend_item {
+  margin-top: 40rpx;
+  flex: 1;
+}
+
+.recommend_item .item_image {
+  border-radius: 50%;
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.recommend_item .item_title {
+  font-size: 30rpx;
+  width: 160rpx;
+  color: #555;
+  margin-top: 10rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,4 @@
+<!--pages/Category/Category.wxml-->
+<view style="height:100%;">
+	<w-cg-tab-control />
+</view>

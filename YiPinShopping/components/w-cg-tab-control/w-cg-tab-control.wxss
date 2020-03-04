@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.tab-control {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  height: 100%;
+  font-size: 28rpx;
+  background: #f6f6f6;
+}
+
+.tab-item {
+  line-height: 100rpx;
+  word-wrap: break-word;
+  text-align: center;
+
+  font-size: 32rpx;
+}
+
+.active {
+  color: #ff5777;
+  background-color: #fff;
+}
+
+.active .item {
+  border-left: solid 3px #ff5777;
+}
+
+.tab-content {
+  flex: 3;
+  background-color: tomato;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.tab-content-item {
+  text-align: center;
+  flex: 0 0 33%;
+  height: 185rpx;
+  line-height: 185rpx;
+  color: #f6f6f6;
+  font-size: 32rpx;
+}

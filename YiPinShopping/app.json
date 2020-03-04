@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/Profile/Profile",
+    "pages/Home/Home",
+    "pages/Category/Category",
+    "pages/Cart/Cart",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "主页",
+        "iconPath": "/assets/images/tabbar/home.png",
+        "selectedIconPath": "/assets/images/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/Category/Category",
+        "text": "分类",
+        "iconPath": "/assets/images/tabbar/category.png",
+        "selectedIconPath": "/assets/images/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/Cart/Cart",
+        "text": "购物车",
+        "iconPath": "/assets/images/tabbar/cart.png",
+        "selectedIconPath": "/assets/images/tabbar/cart_active.png"
+      },
+      {
+        "pagePath": "pages/Profile/Profile",
+        "text": "我的",
+        "iconPath": "/assets/images/tabbar/profile.png",
+        "selectedIconPath": "/assets/images/tabbar/profile_active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "艺品购物商城",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

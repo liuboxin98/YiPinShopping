@@ -1,0 +1,20 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+	<scroll-view class='scroll' scroll-y>
+		<w-swiper banners="{{image}}" swiper-height="swiper-height" />
+		<view class="content">
+			<view class="title">{{item.GoodsName}}</view>
+			<view class="price">￥{{item.GoodsPrice}}</view>
+			<view class="sell">
+				<view>销量：{{item.GoodsSail}}</view>
+				<view>收藏：996</view>
+				<view>剩余：{{item.GoodsCount}}</view>
+			</view>
+			<view class="sendtime">
+				<view>72小时内发货</view>
+				<view>重量：{{item.GoodsWeight}}</view>
+			</view>
+		</view>
+	</scroll-view>
+	<w-bottom-bar bind:addcart="onAddCart" />
+</view>

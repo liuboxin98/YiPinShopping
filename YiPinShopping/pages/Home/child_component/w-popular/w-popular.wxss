@@ -1,0 +1,8 @@
+.popular {
+  padding-bottom: 40rpx;
+  border-bottom: 16rpx solid #eee;
+}
+
+.popular .image {
+  width: 100%;
+}

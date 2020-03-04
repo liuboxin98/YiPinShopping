@@ -1,0 +1,20 @@
+<!--pages/Home/Home.wxml-->
+<view class="home">
+
+	<scroll-view class='content' bindscrolltolower="loadMore" scroll-top="{{topPosition}}" scroll-y='true' bindscroll="scrollPosition">
+		<!-- 轮播图 -->
+		<w-swiper banners="{{banners}}" />
+		<!-- 推荐 -->
+		<w-recommend recommend="{{recommend}}" bind:imageLoad="onImageLoad" />
+		<!-- 本周流行 -->
+		<w-popular />
+		<!-- 切换栏 -->
+		<w-tab-control id="tab_control" class="{{showTabControl?'fixed':''}}" titles="{{['新款','衣服','壁画']}}" bind:tabclick="handletabclick" />
+		<!-- <w-tab-control wx:if="{{showTabControl}}" titles="{{['新款','衣服','壁画']}}" /> -->
+
+		<!-- 商品数据 -->
+		<w-goods goods="{{goods[currentType].list}}" />
+		<!-- 回到顶部组件  -->
+		<w-back-top bindtap="onBackTop" wx:if="{{showBackTop}}" />
+	</scroll-view>
+</view>
