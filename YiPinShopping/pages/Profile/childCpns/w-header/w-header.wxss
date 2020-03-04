@@ -1,11 +1,18 @@
 /* pages/profile/childCpns/w-header/w-header.wxss */
 .header {
-  position: relative;
+  /* position: relative; */
   display: flex;
-  background: #ff5777;
-  height: 170rpx;
+  background: #040404;
+  height: 246rpx;
   padding: 12rpx 30rpx;
   color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  /* line-height: 200rpx; */
+}
+
+.avatar {
+  margin-top: 10rpx;
 }
 
 .avatar image {
@@ -13,22 +20,18 @@
   height: 140rpx;
   border-radius: 70rpx;
   background: #f2f2f2;
-  vertical-align: middle;
+}
+
+.login {
+  margin: 18rpx 45rpx;
 }
 
 .login-info {
-  vertical-align: middle;
-  margin-left: 30rpx;
-}
-
-.login-info .login {
-  font-size: 36rpx;
-  margin: 14rpx 8rpx;
+  margin-right: 170rpx;
 }
 
 .login-info .phone {
   font-size: 28rpx;
-  margin-top: 10rpx;
 }
 
 .phone image {
@@ -40,9 +43,9 @@
 }
 
 .arrow {
-  position: absolute;
+  /* position: absolute;
   right: 30rpx;
-  margin-top: 30rpx;
+  margin-top: 30rpx; */
 }
 
 .arrow image {

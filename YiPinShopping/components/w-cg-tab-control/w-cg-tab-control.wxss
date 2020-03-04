@@ -22,17 +22,17 @@
 }
 
 .active {
-  color: #ff5777;
-  background-color: #fff;
+  color: #000000;
+  background-color: #d6d6d6;
 }
 
 .active .item {
-  border-left: solid 3px #ff5777;
+  border-left: solid 3px #000000;
 }
 
 .tab-content {
   flex: 3;
-  background-color: tomato;
+  background-color: #d6d6d6;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -43,6 +43,6 @@
   flex: 0 0 33%;
   height: 185rpx;
   line-height: 185rpx;
-  color: #f6f6f6;
+  color: #000000;
   font-size: 32rpx;
 }

@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 0px;
   left: 0px;
-  
+
   display: flex;
   width: 100%;
   height: 120rpx;
@@ -40,10 +40,11 @@
 }
 
 .cart {
-  background: #ffe817;
+  background: #7F7F7F;
+  color: white;
 }
 
 .buy {
-  background: #ff5777;
-  color: #fff;
+  background: #3B3940;
+  color: white;
 }

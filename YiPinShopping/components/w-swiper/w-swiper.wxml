@@ -1,5 +1,5 @@
 <!--components/w-swiper/w-swiper.wxml-->
-<swiper class='swiper swiper-height' indicator-dots='true' indicator-active-color='#ff5777' autoplay='true' circular='true' interval='3000'>
+<swiper class='swiper swiper-height' indicator-dots='true' indicator-active-color='#000000' autoplay='true' circular='true' interval='3000'>
 	<block wx:for="{{banners}}" wx:key="index">
 		<swiper-item>
 			<image class="swiper-image" src="{{item.image}}" mode='widthFix' />

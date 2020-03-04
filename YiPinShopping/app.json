@@ -7,7 +7,7 @@
     "pages/detail/detail"
   ],
   "tabBar": {
-    "selectedColor": "#ff5777",
+    "selectedColor": "#000000",
     "list": [
       {
         "pagePath": "pages/Home/Home",
@@ -36,10 +36,10 @@
     ]
   },
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ff5777",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFFFFF",
     "navigationBarTitleText": "艺品购物商城",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
