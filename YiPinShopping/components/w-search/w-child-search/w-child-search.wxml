@@ -1,0 +1,12 @@
+<view class='search'>
+	<scroll-view class='content' bindscrolltolower="loadMore" scroll-top="{{topPosition}}" scroll-y='true' bindscroll="scrollPosition">
+		<view class='searchItem'>
+			<input bindinput="getInputValue" confirm-type="search" confirm-hold="false" placeholder='搜索' bindconfirm="handleSearch" value="{{value}}"></input>
+			<button size="mini" bindtap="handleSearch">搜索</button>
+		</view>
+		<!-- 商品数据 -->
+		<w-goods goods="{{goods.list}}" />
+		<!-- 回到顶部组件  -->
+		<w-back-top bindtap="onBackTop" wx:if="{{showBackTop}}" />
+	</scroll-view>
+</view>

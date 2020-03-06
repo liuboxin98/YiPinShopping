@@ -1,0 +1,33 @@
+view.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  margin-bottom: 18rpx;
+}
+
+view.searchItem {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  border: 1px solid #D4D4D4;
+}
+
+view.searchItem image {
+  height: 42rpx;
+  width: 42rpx;
+  align-self: center;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+}
+
+view.searchItem input {
+  flex: 1;
+  font-size: 30rpx;
+  align-self: center;
+  height: 66rpx;
+}

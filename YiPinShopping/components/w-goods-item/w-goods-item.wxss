@@ -10,6 +10,7 @@
 .image {
   width: 100%;
   border-radius: 10rpx;
+  box-shadow: 0 0 10px 1px #f6f6f6;
 }
 
 .desc-info {

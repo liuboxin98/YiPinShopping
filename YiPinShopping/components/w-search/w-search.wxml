@@ -1,0 +1,6 @@
+<view class='search'>
+	<view class='searchItem'>
+		<image src="/assets/images/home/search.png"></image>
+		<input placeholder='搜索' disabled="true" bindtap="handler_search"></input>
+	</view>
+</view>

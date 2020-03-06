@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-goods": "../../w-goods/w-goods",
+    "w-back-top": "../../w-back-top/w-back-top"
+  }
+}

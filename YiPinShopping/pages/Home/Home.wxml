@@ -2,6 +2,8 @@
 <view class="home">
 
 	<scroll-view class='content' bindscrolltolower="loadMore" scroll-top="{{topPosition}}" scroll-y='true' bindscroll="scrollPosition">
+		<!-- 搜索 -->
+		<w-search />
 		<!-- 轮播图 -->
 		<w-swiper banners="{{banners}}" />
 		<!-- 推荐 -->

@@ -4,7 +4,8 @@
     "pages/Home/Home",
     "pages/Category/Category",
     "pages/Cart/Cart",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "components/w-search/w-child-search/w-child-search"
   ],
   "tabBar": {
     "selectedColor": "#000000",
