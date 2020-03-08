@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/Profile/Profile",
-    "pages/Home/Home",
     "pages/Category/Category",
     "pages/Cart/Cart",
+    "pages/Profile/Profile",
+    "pages/Home/Home",
     "pages/detail/detail",
     "components/w-search/w-child-search/w-child-search"
   ],

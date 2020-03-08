@@ -8,6 +8,7 @@ Page({
     totalCounter: 0
   },
   onLoad() {
+    console.log(app.globalData.cartList);
     // 1.第一次加载数据
     this.setData({
       cartList: app.globalData.cartList
@@ -41,6 +42,8 @@ Page({
     this.setData({
       cartList: app.globalData.cartList
     })
+    console.log(app.globalData.cartList)
+    console.log(this.data.cartList);
 
     wx.setNavigationBarTitle({
       title: `购物车(${this.data.cartList.length})`,

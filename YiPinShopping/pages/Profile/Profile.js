@@ -1,4 +1,5 @@
 // pages/profile/profile.js
+var app = getApp();
 Page({
   data: {
     orderList: [
@@ -12,6 +13,8 @@ Page({
     ]
   },
   onLoad: function (options) {
-
+    if (app.userInfo != null) {
+      
+    }
   },
 })

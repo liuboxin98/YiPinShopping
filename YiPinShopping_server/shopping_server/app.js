@@ -30,8 +30,9 @@ const getGoods = require("./routers/getGoods");
 const getRecomment = require("./routers/getRecomment");
 const getShopCartTab = require("./routers/getShopCartTab");
 const getUsers = require("./routers/getUsers");
+const login = require("./routers/login");
 
-app.use("/api", getBanner, getGoods, getRecomment, getShopCartTab, getUsers);
+app.use("/api", getBanner, getGoods, getRecomment, getShopCartTab, getUsers, login);
 
 // // 7. 处理静态资源
 app.use(express.static("public"));

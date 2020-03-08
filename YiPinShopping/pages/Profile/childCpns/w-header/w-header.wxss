@@ -12,22 +12,21 @@
 }
 
 .avatar {
-  margin-top: 10rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 220rpx;
+  height: 220rpx;
 }
 
-.avatar image {
+/* .avatar .image {
   width: 140rpx;
   height: 140rpx;
   border-radius: 70rpx;
   background: #f2f2f2;
-}
+} */
 
 .login {
   margin: 18rpx 45rpx;
-}
-
-.login-info {
-  margin-right: 170rpx;
 }
 
 .login-info .phone {
@@ -40,12 +39,6 @@
   vertical-align: middle;
   position: relative;
   bottom: 4rpx;
-}
-
-.arrow {
-  /* position: absolute;
-  right: 30rpx;
-  margin-top: 30rpx; */
 }
 
 .arrow image {
