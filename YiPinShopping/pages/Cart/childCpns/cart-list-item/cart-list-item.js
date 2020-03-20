@@ -9,6 +9,9 @@ Component({
     },
     index: {
       type: Number
+    },
+    showEdit: {
+      type: Boolean
     }
   },
 
@@ -16,7 +19,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    show: true
   },
 
   /**
@@ -27,7 +30,7 @@ Component({
       // 1.查找到对应的商品
       const goods = app.globalData.cartList.find(item => item.id == this.properties.goods.id)
       goods.checked = !goods.checked
-      
+
       // 2.获取当前商品的index
       const index = e.currentTarget.dataset.index;
 

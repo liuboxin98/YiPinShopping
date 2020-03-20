@@ -1,0 +1,9 @@
+<!--pages/cart/childCpns/bottom-bar/bottom-bar.wxml-->
+<view class='top-bar'>
+	<view class='check-box'>
+		<w-check-icon icon="icon" isChecked="{{selected}}" bindtap='CheckAll' />
+		<view>全选</view>
+	</view>
+
+	<view class="edit" bindtap='handleEdit'>编辑</view>
+</view>

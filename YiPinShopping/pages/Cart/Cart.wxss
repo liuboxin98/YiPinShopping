@@ -4,5 +4,6 @@
 }
 
 .cart-list {
-  height: calc(100% - 88rpx);
+  /* height: calc(100% - 88rpx); */
+  margin: 88rpx 0;
 }

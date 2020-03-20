@@ -5,7 +5,8 @@ Page({
     cartList: [],
     isSelectAll: true,
     totalPrice: 0,
-    totalCounter: 0
+    totalCounter: 0,
+    showEdit: false   //编辑
   },
   onLoad() {
     console.log(app.globalData.cartList);
@@ -72,6 +73,12 @@ Page({
     }
 
     this.changeData();
+  },
+  clickEdit(e) {
+    console.log("edit click", e);
+    this.setData({
+      showEdit: e.detail.showedit
+    })
   },
   changeData() {
     // 1.获取所有选中数据

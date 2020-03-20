@@ -1,18 +1,20 @@
 /* pages/cart/childCpns/bottom-bar/bottom-bar.wxss */
-.bottom-bar {
+.top-bar {
   height: 88rpx;
   background: #eee;
-  padding-left: 30rpx;
+  padding: 0 30rpx;
   box-shadow: 0 -2px 2px rgba(0, 0, 0, .1);
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   font-size: 28rpx;
 
   position: fixed;
-  bottom: 0;
   left: 0;
   right: 0;
+  top: 0;
+  z-index: 996;
+
 }
 
 .check-box {

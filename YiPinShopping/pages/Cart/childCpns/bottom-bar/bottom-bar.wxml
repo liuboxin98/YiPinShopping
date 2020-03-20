@@ -1,11 +1,11 @@
 <!--pages/cart/childCpns/bottom-bar/bottom-bar.wxml-->
 <view class='bottom-bar'>
-	<view class='check-box'>
+	<!-- <view class='check-box'>
 		<w-check-icon icon="icon" isChecked="{{selected}}" bindtap='CheckAll' />
 		<view>全选</view>
-	</view>
+	</view> -->
 	<view class='counter'>
-		总计: ¥{{price}}
+		总计: <text style="color:red;">¥{{price}}</text>
 	</view>
 	<view class='payment' catchtap="settleAccounts">去结算({{counter}})</view>
 </view>

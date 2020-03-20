@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class='stepper'>
+  <text class='{{minusStatus}}' type='number'  bindtap='bindMinus'>-</text>
+  <input bindinput='bindManual' value='{{num}}'></input>
+  <text bindtap='bindPlus'>+</text>
+</view>

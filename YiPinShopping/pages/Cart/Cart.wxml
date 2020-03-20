@@ -1,9 +1,10 @@
 <!--pages/cart/cart.wxml-->
 <view class='cart'>
+	<top-bar bind:onSelectAll="onSelectAll" bind:clickEdit="clickEdit" selected="{{isSelectAll}}" showEdit="{{showEdit}}" />
 	<scroll-view class='cart-list' scroll-y>
 		<block wx:for="{{cartList}}" wx:key="index">
-			<cart-list-item goods="{{item}}" index="{{index}}" />
+			<cart-list-item goods="{{item}}" index="{{index}}" showEdit="{{showEdit}}" />
 		</block>
 	</scroll-view>
-	<bottom-bar bind:onSelectAll="onSelectAll" selected="{{isSelectAll}}" price="{{totalPrice}}" counter="{{totalCounter}}" />
+	<bottom-bar price="{{totalPrice}}" counter="{{totalCounter}}" />
 </view>
